@@ -1,0 +1,34 @@
+Instructions for commands and scripting:
+- load image-path image-name --> loads into the program the image at the image path and the name
+  of the image.
+- red-component: set-filter layer-name filter-option red-component --> sets the filter of the image
+  to red resulting in a layer of the red component on the loaded image
+- green-component: set-filter layer-name filter-option green-component --> sets the filter of the
+  image to green resulting in a layer of the green component on the loaded image
+- blue-component:set-filter layer-name filter-option blue-component --> sets the filter of the image
+  to blue resulting in a layer of the blue component on the loaded image
+- brighten-value: set-filter layer-name filter-option brighten-value --> sets the filter of the
+  image to be brightened resulting in a layer of a brighter value component on the loaded image
+- brighten-intensity: set-filter layer-name filter-option brighten-intensity --> sets the filter of
+  the image to be brightened resulting in a layer of a brighter intensity component on the loaded
+  image
+- brighten-luma: set-filter layer-name filter-option brighten-luma --> sets the filter of the image
+  to be brightened resulting in a layer of a brighter luma component on the loaded image
+- darken-value: set-filter layer-name filter-option darken-value --> sets the filter of the image to
+  be darkened resulting in a layer of a darker value component on the loaded image
+- darken-intensity: set-filter layer-name filter-option darken-intensity --> sets the filter of the
+  image to be darkened resulting in a layer of a darker intensity component on the loaded image
+- darken-luma: set-filter layer-name filter-option darken-luma --> sets the filter of the image to
+  be darkened resulting in a layer of a darker luma component on the loaded image
+
+- darkenBlending: set-filter layer-name filter-option darkenBlending --> sets the filter of the
+  image to be darkened through blending resulting in a layer of a darker-blended component on the
+  loaded image
+- brightenBlending: set-filter layer-name filter-option brightenBlending --> sets the filter of the
+  image to be brightened through blending resulting in a layer of a brighter-blended component on
+  the loaded image
+- inversionBlending: set-filter layer-name filter-option inversionBlending --> sets the filter of
+  the image to be blended resulting in a layer of a blended component on the loaded image
+
+
+
